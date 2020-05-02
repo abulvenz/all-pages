@@ -14,6 +14,16 @@ a {
     text-decoration: none;
 }
 
+a.button {
+    background-color: lightblue;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+a.button:hover {
+    background-color: rgb(157, 157, 228);
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
