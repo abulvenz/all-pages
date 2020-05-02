@@ -1,0 +1,65 @@
+body {
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    padding: 2em;
+    background-color: blanchedalmond;
+    margin-bottom: 15px;
+    border-radius: 4px 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2vw
+}
+
+@media(min-width:580px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw
+    }
+}
+
+@media(min-width:900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2vw
+    }
+}
+
+article {
+    background-color: bisque;
+    overflow: hidden;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, .5) 1vw 1vw 1vw;
+}
+
+article>div.container {
+    padding: 1em;
+}
+
+h2 {
+    margin-top: 0em;
+}
+
+article>img {
+    padding: 0;
+    width: 100%;
+}
+
+article:hover {
+    box-shadow: rgba(0, 0, 0, .5) 2vw 2vw 2vw;
+}
+
+p {
+    margin-bottom: 0.9em;
+}
